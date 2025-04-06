@@ -22,6 +22,7 @@ This project recommends SHL assessments based on a job description or slug/URL u
 - **LLM Parsing**: LangChain + Markdown Table Parser
 
 ---
+![image](https://github.com/user-attachments/assets/bf361b17-c430-498e-901f-aa4d056c3664)
 
 
 
