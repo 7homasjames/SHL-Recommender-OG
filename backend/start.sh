@@ -12,5 +12,5 @@ unzip /tmp/chromedriver.zip -d /usr/local/bin/
 chmod +x /usr/local/bin/chromedriver
 
 # Start the app
-uvicorn backend.main:app --host 0.0.0.0 --port 8000
+uvicorn api:app --host 0.0.0.0 --port 8000
 
