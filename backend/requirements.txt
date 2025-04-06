@@ -4,3 +4,4 @@ pydantic
 markdown-table-parser
 beautifulsoup4
 requests
+openai
