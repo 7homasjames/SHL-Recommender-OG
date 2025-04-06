@@ -1,6 +1,5 @@
 fastapi
 uvicorn
-markdown-table-parser
 beautifulsoup4
 requests
 openai
