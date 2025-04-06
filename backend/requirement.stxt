@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydantic
+markdown-table-parser
+beautifulsoup4
+requests
