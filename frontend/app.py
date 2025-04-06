@@ -15,11 +15,10 @@ if st.button("Get Recommendations"):
     else:
         with st.spinner("Fetching recommendations..."):
             try:
-               response = requests.post(
-                "https://shl-api-ns2u.onrender.com/recommend",
-                json={"input": user_input}
-            )
-
+                response = requests.post(
+                    "https://shl-api-ns2u.onrender.com/recommend",
+                    json={"input": user_input}
+                )
 
                 if response.status_code != 200:
                     st.error("❌ Something went wrong: " + response.text)
